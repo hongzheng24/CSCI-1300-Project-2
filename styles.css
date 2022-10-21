@@ -1,0 +1,101 @@
+:root {
+    --color1: #eecc83;
+    --color2: #d4f0f7;
+    --color3: #d0d5f7;
+    --color4: #b8cfec;
+    
+}
+
+.html {
+   
+}
+
+body {
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.section-main-div {
+    width: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-1-main-div {
+    background-color: var(--color1);
+}
+
+#section-2-main-div {
+    background-color: var(--color4);
+    padding-bottom: 5rem;
+}
+
+#section-3-main-div {
+    background-color: var(--color1);
+}
+
+#section-4-main-div {
+    background-color: var(--color4);
+}
+
+.section-body-div {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.section-2-body-element-1 {
+    width: 30%;
+}
+
+.section-2-body-element-2 {
+    width: 70%;
+}
+
+#section-2-body-div-3 {
+    width: 85%
+}
+
+.section-3-body-div {
+    display: block;
+}
+
+.section-header {
+    margin-bottom: 2%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#section-3-image-body-element {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#section-3-image-body-element-2 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 1rem;
+}
+
+.section-3-body-element-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
