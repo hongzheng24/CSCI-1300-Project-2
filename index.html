@@ -7,126 +7,145 @@
     </head>
 
     <body>
-        <!--Section 1: Title-->
-        <div class = "section-main-div" id = "section-1-main-div">
-            <h1>Responsive Redesign: When2meet</h1>
-        </div>
-
-        <!--Section 2: Part 1 Identifying User Problems-->
-        <div class = "section-main-div" id = "section-2-main-div">
-            <h3 class = "section-header">Part 1: Identifying User Problems</h3>
-            
-            <div class = "section-body-div" id = "section-2-body-div-1">
-                <h4 class = "section-2-body-element-1">Picking a Web Page</h4>
-                <div class = "section-2-body-element-2">
-                    <p>When2meet is simple and effective. It solves one problem and one problem only:
-                        scheduling an event at a time when all participants are available. Although I
-                        love the simplicity of the website, the user interface, learnability, and efficiency
-                        can definitely be improved. I will be focusing on the "Plan a New Event" page.
-                    </p>
-                    
-                    <iframe type="text/html" src="https://www.when2meet.com/" width="650" height="200"></iframe>
-                    <a href="https://www.when2meet.com/" style="display: flex; justify-content: center;">When2meet</a>
-                </div>
+        <nav class="navbar">
+            <div class="navbar-title" style="height: 100%; margin-left: 2%; display: flex; align-items: center;">
+                <a href="#main" style="color: white; text-decoration: none;"><h1>Responsive Redesign: When<span id="title-span">2</span>meet</h1></a>
             </div>
 
-            <hr>
+            <div class="navbar-item-container" style="margin-right: 2%;">
+                <a class="navbar-item" id="navbar-item-intro" href="#introduction">Introduction</a>
+                <a class="navbar-item" id="navbar-item-p1" href="#identifying-problems">Identifying User Problems</a>
+                <a class="navbar-item" id="navbar-item-p2" href="#visual-redesign">Visual Redesign</a>
+                <a class="navbar-item" id="navbar-item-p3" href="#responsive-redesign">Responsive Redesign</a>
+            </div>
+        </nav>
 
-            <div class = "section-body-div" id = "section-2-body-div-2">
-                <h4 class = "section-2-body-element-1">Finding Problems</h4>
-                <div class = "section-2-body-element-2">
-                    <h4>learnability</h4>
-                    <ul>
-                        <li>hard to learn</li>
-                        <li>overwheling with information and visual noise</li>
-                        <li>makes user look at all the steps of making a new event at once (this includes selecting event date,
-                            selecting event times, and selecting event name)
-                        </li>
-                        <li>scrolling on calendar is incredibly unintuitive, no visible scroll bar</li>
-                    </ul>
-                    <h4>usability</h4>
-                    <ul>
-                        <li>the labeling of the calendar is confusing</li>
-                        <li>creating a one time event or a recurring event is confusing</li>
-                        <li>dropdown menus for times are confusing</li>
-                    </ul>
-                    <h4>memorability</h4>
-                    <ul>
-                        <li>fairly easy to master with continuous use</li>
-                    </ul>
-                    <h4>miscellaneous</h4>
-                    <ul> 
-                        <li>not visually appealing</li>
-                    </ul>
-                </div>
+        <div class="main" id="main">
+            <!--Section 1: Title-->
+            <div class = "main-section" id = "introduction">
+                <h1 class = "section-header">Introduction</h1>
+
+                <p>
+                    In this project, I will create a responsive redesign of the website When2meet. I will identify the
+                    learnability, usability, memorability, and accessibility issues present in the original webpage,
+                    create low-fidelity and high-fidelity wireframes, and finally create a responsive webpage for my redesign.
+
+                    The redesign will focus on user-centered design, accessibility, and responsiveness.
+                </p>
             </div>
 
-            <hr>
-
-            <div class = "section-body-div" id = "section-2-body-div-3">
-                <h4 class = "section-2-body-element-1">Accessibility</h4>
-                <div class = "section-2-body-element-2">
-                    <ul>
-                        <li>language of page is not specified</li>
-                        <li>"New Event Name" box does not have an alternative lable for screen reader users</li>
-                        <li>navigation bar links do not have alternative labels for screen reader and keyboard users</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!--Section 3: Part 2 Visual Redesign-->
-
-        <div class = "section-main-div" id = "section-3-main-div">
-            <h3>Part 2: Visual Redesign</h3>
-
-            <div class="section-3-body-div">
-                <h4 class="section-3-body-element-1">Low-Fidelity Wireframes</h4>
-
-                <div class="section-3-body-element-2" id="section-3-image-body-element">
-                    <img src="CSCI-1300-Project-2-Low-Fidelity-Prototype-1.jpg" style="height: 400;">
-                    <img src="CSCI-1300-Project-2-Low-Fidelity-Prototype-2.jpg" style="height: 400;">
-                    <img src="CSCI-1300-Project-2-Low-Fidelity-Prototype-3.jpg" style="height: 400;">
-                </div>
-
-                <hr>
-
-                <h4 class="section-3-body-element-1">High-Fidelity Wireframes</h4>
-                <div class="section-3-body-element-2" id="section-3-image-body-element-2">
-                    <img src="When2meet Redesign-4.jpg" style="height: 500;">
-                    <img src="When2meet Redesign-6.jpg" style="height: 500;">
-                    <img src="When2meet Redesign-2.jpg" style="height: 500;">
-                </div>
+            <!--Section 2: Part 1 Identifying User Problems-->
+            <div class = "main-section" id = "identifying-problems">
+                <h1 class = "section-header">Part 1: Identifying User Problems</h1>
                 
-                <hr>
+                <div class = "main-sub-section" id = "section-2-body-div-1">
+                    <h2 class = "section-2-body-element-1">Picking a Web Page</h2>
+                    <div class = "section-2-body-element-2">
+                        <p>When2meet is simple and effective. It solves one problem and one problem only:
+                            scheduling an event at a time when all participants are available. Although I
+                            love the simplicity of the website, the user interface, learnability, and efficiency
+                            can definitely be improved. I will be focusing on the "Plan a New Event" page.
+                        </p>
+                        
 
-                <h4 class="section-3-body-element-1">Visual Design Guide</h4>
-                <div class="section-3-body-element-2" style="display: flex; justify-content: center;">
-                    <img src="Frame 1.png" style="height: 500;"></img>
+                        <a href="https://www.when2meet.com/" style="display: flex; justify-content: center;">When2meet</a>
+                        <iframe type="text/html" src="https://www.when2meet.com/"></iframe>
+                    </div>
+                </div>
+
+
+                <div class = "main-sub-section" id = "section-2-body-div-2">
+                    <h2 class = "section-2-body-element-1">Finding Problems</h2>
+                    <div class = "section-2-body-element-2">
+                        <h4>learnability</h4>
+                        <ul>
+                            <li>hard to learn</li>
+                            <li>overwheling with information and visual noise</li>
+                            <li>makes user look at all the steps of making a new event at once (this includes selecting event date,
+                                selecting event times, and selecting event name)
+                            </li>
+                            <li>scrolling on calendar is incredibly unintuitive, no visible scroll bar</li>
+                        </ul>
+                        <h4>usability</h4>
+                        <ul>
+                            <li>the labeling of the calendar is confusing</li>
+                            <li>creating a one time event or a recurring event is confusing</li>
+                            <li>dropdown menus for times are confusing</li>
+                        </ul>
+                        <h4>memorability</h4>
+                        <ul>
+                            <li>fairly easy to master with continuous use</li>
+                        </ul>
+                        <h4>miscellaneous</h4>
+                        <ul> 
+                            <li>not visually appealing</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class = "main-sub-section" id = "section-2-body-div-3">
+                    <h2 class = "section-2-body-element-1">Accessibility</h2>
+                    <div class = "section-2-body-element-2">
+                        <ul>
+                            <li>language of page is not specified</li>
+                            <li>"New Event Name" box does not have an alternative lable for screen reader users</li>
+                            <li>navigation bar links do not have alternative labels for screen reader and keyboard users</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!--Section 4: Part 3 Responsive Redesign-->
-        <div class = "section-main-div" id = "section-4-main-div">
-            <h3>Part 3: Responsive Redesign</h3>
+            <!--Section 3: Part 2 Visual Redesign-->
+            <div class = "main-section" id = "visual-redesign">
+            <h1 class="section-header">Part 2: Visual Redesign</h1>
 
-            <div style="margin-bottom: 2%;">
-                <h4>When2meet Redesign Link</h4>
-                <a href="https://funkyfox123.github.io/when2meet-redesign/">When2meet Responsive Redesign</a>
-                <h4>Improvements from the original design</h4>
-                <ul style="margin-left: 2%;">
-                    <li>improved adapability and resizing</li>
-                    <li>resizing affects appearance of navigation bar, calendar, flex boxes, and font sizes</li>
-                    <li>can be easily used by a beginner</li>
-                    <li>friendly and casual design</li>
-                    <li>website is very simple, user only focuses on one task at a time</li>
-                    <li>alternate tag for text boxes and buttons</li>
-                </ul>
+                <div class="section-3-body-div">
+                    <h2 class="section-3-body-element-1">Low-Fidelity Wireframes</h2>
+
+                    <div class="main-sub-section" id="section-3-image-body-element">
+                        <img src="CSCI-1300-Project-2-Low-Fidelity-Prototype-1.jpg" style="height: 400;">
+                        <img src="CSCI-1300-Project-2-Low-Fidelity-Prototype-2.jpg" style="height: 400;">
+                        <img src="CSCI-1300-Project-2-Low-Fidelity-Prototype-3.jpg" style="height: 400;">
+                    </div>
+
+                    <h2 class="section-3-body-element-1">High-Fidelity Wireframes</h2>
+                    <div class="main-sub-section" id="section-3-image-body-element-2">
+                        <img src="When2meet Redesign-4.jpg" style="height: 500;">
+                        <img src="When2meet Redesign-6.jpg" style="height: 500;">
+                        <img src="When2meet Redesign-2.jpg" style="height: 500;">
+                    </div>
+
+                    <h2 class="section-3-body-element-1">Visual Design Guide</h2>
+                    <div class="main-sub-section" style="display: flex; justify-content: center;">
+                        <img src="Frame 1.png" style="height: 500;"></img>
+                    </div>
+                </div>
             </div>
 
-            <div style="display: flex; justify-content: center;">
-                <iframe type="text/html" src="https://funkyfox123.github.io/when2meet-redesign/" width="1000" height="850"></iframe>
+            <!--Section 4: Part 3 Responsive Redesign-->
+            <div class = "main-section" id = "responsive-redesign" style="padding-bottom: 6rem;">
+                <h1 class="section-header">Part 3: Responsive Redesign</h1>
+
+                <div class="main-sub-section">
+                    
+                    <h2>Improvements from the Original Design</h2>
+                    <ul style="margin-left: 2%;">
+                        <li>improved adapability and resizing</li>
+                        <li>resizing affects appearance of navigation bar, calendar, flex boxes, and font sizes</li>
+                        <li>can be easily used by a beginner</li>
+                        <li>friendly and casual design</li>
+                        <li>website is very simple, user only focuses on one task at a time</li>
+                        <li>alternate tag for text boxes and buttons</li>
+                    </ul>
+                </div>
+                <div class="main-sub-section">
+                    <h2>Final Redesign</h2>
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                        <a href="https://funkyfox123.github.io/when2meet-redesign/" target="_blank">When2meet Responsive Redesign</a>
+                        <iframe type="text/html" src="https://funkyfox123.github.io/when2meet-redesign/" width="100%" height="850"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
